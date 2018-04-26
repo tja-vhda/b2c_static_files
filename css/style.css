@@ -22606,7 +22606,7 @@ div.hopscotch-bubble .hopscotch-bubble-arrow-container.down .hopscotch-bubble-ar
 
 
 /*  Azure AD B2C Customization Styles  */
-.intro > h2 {
+.intro > h2, .intro > p {
 	margin-bottom: 20px !important;
 	margin-top: 0 !important;
 	color: #818a91;
@@ -22626,6 +22626,7 @@ div.hopscotch-bubble .hopscotch-bubble-arrow-container.down .hopscotch-bubble-ar
 
 label {
 	margin-right: 10px;
+	
 }
 
 .error {
@@ -22637,7 +22638,7 @@ label {
 	cursor: hand;
 }
 
-.entry-item {
+.entry-item, .attrEntry {
 	margin-bottom: 1rem;
 }
 
@@ -22667,7 +22668,6 @@ input {
 	z-index: 1;
 	will-change: opacity, transform;
 	transition: all 0.3s ease-out;
-	width: 100%;
 	color: #fff;
     background-color: #1bb99a;
     border-color: #1bb99a;
@@ -22686,6 +22686,10 @@ input {
 	font: inherit;
 }
 
+.buttons > #continue, .buttons > #cancel {
+
+}
+
 .create > p {
 	color: #818a91;
 	
@@ -22700,3 +22704,4 @@ input {
 	touch-action: manipulation;
 	margin-left: 5px;
 }
+
